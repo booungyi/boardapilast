@@ -23,7 +23,6 @@ public class BoardService {
 
     public void create(CreateBoardRequest request) {
         boardRepository.save(new Board(request.name()));
-
     }
 
     public void delet(Long id) {

@@ -23,6 +23,10 @@ public class Post {
     private List<Comment> comments;
 
     // 생성자, getter, setter 등
+
+    public Post() {
+    }
+
     public Post(String title, String content, Board board) {
         this.title = title;
         this.content = content;
